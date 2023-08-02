@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #c7f3fc;
+}
+.navbar .rasm {
+  width: 50px;
+  height: 60px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.navbar .marj ul {
+  display: flex;
+  list-style: none;
+  margin-left: 600px;
+}
+.navbar .marj li {
+  text-decoration: none;
+  margin: 30px;
+  color: black;
+}
+.navbar .marj a {
+  color: black;
+  font-weight: 700;
+}
+.navbar .btn {
+  display: inline-block;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 12px;
+  letter-spacing: -0.1px;
+  text-decoration: none;
+  margin-top: 15px;
+  margin-right: 100px;
+}
+.navbar .btn:hover {
+  background-color: white;
+  color: blue;
+  border: 2px solid darkblue;
+  transition: all 0.4s ease;
+}
+.navbar .btn:active {
+  background-color: blue;
+  color: white;
+  opacity: 0.6;
+}
+
+.keyin {
+  position: relative;
+}
+.keyin .kartin {
+  background-size: cover;
+}
+.keyin .qora {
+  width: 100%;
+  height: 1200px;
+  position: absolute;
+  background-color: black;
+  opacity: 0.5;
+}
+.keyin .hamma {
+  position: absolute;
+  top: 0;
+  color: #fff;
+  text-align: center;
+  margin-left: 780px;
+  margin-top: 290px;
+  width: 600px;
+}
+.keyin .son1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.keyin .son2 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.keyin .son3 {
+  display: inline-block;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  letter-spacing: -0.1px;
+  text-decoration: none;
+  margin-top: 40px;
+}
+.keyin .son3:hover {
+  background-color: white;
+  color: blue;
+  border: 2px solid darkblue;
+  transition: all 0.4s ease;
+}
+.keyin .son3:active {
+  background-color: blue;
+  color: white;
+  opacity: 0.6;
+}
+.keyin .son4 {
+  width: 150px;
+  height: 45px;
+  margin-left: 10px;
+  background-color: #fff;
+  border: none;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.host {
+  position: absolute;
+  top: 550px;
+  left: 490px;
+  color: #fff;
+  display: flex;
+}
+.host .aziz1 {
+  display: inline-block;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  background-color: #c7f3fc;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  letter-spacing: -0.1px;
+  text-decoration: none;
+  margin-top: 40px;
+}
+.host .aziz1:hover {
+  background-color: white;
+  color: blue;
+  border: 2px solid darkblue;
+  transition: all 0.4s ease;
+}
+.host .aziz1:active {
+  background-color: blue;
+  color: white;
+  opacity: 0.6;
+}
+.host .item1 {
+  width: 300px;
+  text-align: center;
+}
+.host .item2 {
+  width: 300px;
+  text-align: center;
+}
+.host .item3 {
+  width: 300px;
+  text-align: center;
+}
+.host .item4 {
+  width: 300px;
+  text-align: center;
+}
+.host .aziz2 {
+  font-weight: 700;
+  margin-top: 20px;
+}
+.host .aziz3 {
+  font-weight: 700;
+  margin-top: 20px;
+}
+.host .aziz4 {
+  font-weight: 700;
+  margin-top: 20px;
+}
+.host .aziz5 {
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.box {
+  width: 100%;
+  height: 3000px;
+  background-color: #c7f3fc;
+  margin-top: -10px;
+  position: relative;
+}
+.box .karobka {
+  width: 600px;
+  text-align: center;
+  left: 800px;
+  top: 100px;
+  position: absolute;
+}
+.box .dip2 {
+  position: absolute;
+  top: 170px;
+  font-size: 17px;
+  font-weight: 700;
+}
+.box .dip1 {
+  font-size: 50px;
+}
+.box .bosch {
+  position: absolute;
+  margin-top: 600px;
+  display: flex;
+  margin-left: 450px;
+}
+.box .bosch .olma1 {
+  width: 410px;
+  height: 530px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.box .bosch .olma2 {
+  width: 410px;
+  height: 530px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.box .bosch .olma3 {
+  width: 410px;
+  height: 530px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.box .bosch .war {
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.box .bosch .mr1 {
+  font-size: 23px;
+  font-weight: 800;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.box .bosch .mr2 {
+  font-size: 15px;
+  font-weight: 800;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.box .bosch .body1 {
+  margin-top: 300px;
+}
+
+.rasmlar {
+  position: absolute;
+  top: 2600px;
+  margin-left: 740px;
+}
+.rasmlar .zarya {
+  font-size: 50px;
+  font-weight: 700;
+}
+.rasmlar .san {
+  margin-left: -270px;
+  margin-top: 50px;
+}/*# sourceMappingURL=style.css.map */
